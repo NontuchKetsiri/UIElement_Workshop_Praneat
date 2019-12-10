@@ -1,0 +1,66 @@
+﻿.description-text {
+    font-size: 20px;
+    color: #ffffff;
+    -unity-text-align: middle-center;
+}
+
+.small-line {
+    width: 544px;
+    height: 5;
+    background-color: #ffffff;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.objectfield-player {
+    width: 300px;
+}
+
+.column-setting {
+    flex-direction: column;
+    justify-content: center;
+    width: 544px;
+}
+
+.row {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.row-dim-background {
+    flex-direction: row;
+    justify-content: center;
+    width: 544px;
+    background-color: #8c8c8c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header-image {
+    width: 544px;
+    height: 162;
+}
+
+.buff-image {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buff-button {
+    width: 200;
+    height: 50px;
+    align-self: center;
+}
+
+.buff-textfield {
+    width: 80;
+    height: 20px;
+    align-self: center;
+}

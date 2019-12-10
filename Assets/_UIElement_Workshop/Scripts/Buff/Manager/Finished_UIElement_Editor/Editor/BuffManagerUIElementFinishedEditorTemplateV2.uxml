@@ -1,0 +1,51 @@
+﻿<UXML xmlns="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+	<VisualElement class="column">
+		<VisualElement class="row hoverable">
+			<VisualElement name="header" class="header-image" />
+		</VisualElement>
+		<VisualElement class="row">
+			<VisualElement class="small-line" />
+		</VisualElement>
+		<VisualElement class="row">
+			<VisualElement class="row-dim-background">
+				<Label name="description" class="description-text" />
+			</VisualElement>
+		</VisualElement>
+		<VisualElement class="row">
+			<VisualElement class="small-line" />
+		</VisualElement>
+		<VisualElement class="row">
+			<VisualElement class="row-dim-background">
+				<VisualElement class="column-setting">
+					<Label text="Setting" class="description-text" />
+					<VisualElement name="setting" class="row">
+						<Label text="Player : " class="description-text" />
+						<uie:ObjectField name="player-field" binding-path="player" class="objectfield-player" />
+					</VisualElement>
+				</VisualElement>
+			</VisualElement>
+		</VisualElement>
+		<VisualElement class="row">
+			<VisualElement class="small-line" />
+		</VisualElement>
+		<VisualElement class="row">
+			<VisualElement class="row-dim-background">
+				<VisualElement name="setting" class="column-setting">
+					<Label text="Speed Buff" class="description-text" />
+					<VisualElement name="speed-buff-image" class="buff-image" />
+					<Label name="speed-buff-activate-text" text="Activate : false" class="description-text" />
+					<Button name="speedbuff-button" text="ADD SPEED BUFF" class="buff-button" />
+				</VisualElement>
+				<VisualElement name="setting" class="column-setting">
+					<Label text="Jump Buff" class="description-text" />
+					<VisualElement name="jump-buff-image" class="buff-image" />
+					<Label name="jump-buff-activate-text" text="Activate : false" class="description-text" />
+					<Button name="jumpbuff-button" text="ADD JUMP BUFF" class="buff-button" />
+				</VisualElement>
+			</VisualElement>
+		</VisualElement>
+		<VisualElement class="row">
+			<VisualElement class="small-line" />
+		</VisualElement>
+	</VisualElement>
+</UXML>
