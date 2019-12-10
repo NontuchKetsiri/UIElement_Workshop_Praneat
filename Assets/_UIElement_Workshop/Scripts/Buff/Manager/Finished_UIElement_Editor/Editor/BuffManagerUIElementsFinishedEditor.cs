@@ -27,15 +27,11 @@ public class BuffManagerUIElementsFinishedEditor : Editor
             "Assets/_UIElement_Workshop/Scripts/Buff/Manager/Finished_UIElement_Editor/Editor/BuffManagerUIElementFinishedEditorStyleV2.uss"
         );
 
-        Debug.Log("hello");
-
         rootElement.styleSheets.Add(styleSheet);
     }
 
     public override VisualElement CreateInspectorGUI()
     {
-        Debug.Log(buffManager.player);
-
         rootElement.Clear();
         visualTree.CloneTree(rootElement);
 
